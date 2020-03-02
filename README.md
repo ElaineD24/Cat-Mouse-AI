@@ -7,5 +7,8 @@ This is a game of Cat and Mouse. The mouse will greedily move toward the closest
 Search algorithm used:
 
 Breadth-First Search
+
 Depth-First Search
+
 A* Search with two different heuristic functions
+
