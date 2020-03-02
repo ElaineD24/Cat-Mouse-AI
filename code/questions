@@ -1,0 +1,36 @@
+mouse move faster?
+- Total move is similar, need more searches
+
+Search Count for Heuristic:
+- Most of the time is less than 20 searches
+
+Whih searh worked best?
+- A*
+
+Which heuristis did you use?
+
+- Calculating the euclidean distance of the cat position relative to the mouse position at each state(where whenever mouse moves, cat moves)
+  and divide that by square root of 5 since 1 cat move = square root of 5 in euclidean distance, to ensure the heuristic function does not overestimate
+    
+- Calculating the Manhattan distance of the cat position to the center of all of the cheese position coordinates
+  divide the value by 3 since 1 cat move = 3 in Manhattan distance, to ensure our heuristic function does not overestimate
+   
+Why did you choose these heuristis?
+ - These two heuristic function is always calculating the actual distance from the current position to the goal(mouse position),
+ they are goal-oriented heuristic functions.
+
+Does the combination of the two heuristis work better or worse than they do individually?
+- Similar. Because they're always calculating the distance between cat and mouse in each state.
+
+How well do the searhes work if you increase the size of the board to 30x30 or 50x50.
+- Need long time to search. Sometimes works fast depends on the map.
+
+How many nodes are searhed for each of the searhes on average with respective deviation.
+(BFS, DFS, and A* )
+
+What is the average number of moves required for each type of search with respective
+deviation. (BFS, DFS, and A* )
+
+Which searh works best if you inrease the speed of the Mouse to two steps per turn?
+Three steps?
+A*
